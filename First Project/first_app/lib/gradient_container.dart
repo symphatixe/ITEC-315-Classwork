@@ -2,7 +2,9 @@ import 'package:first_app/centered.dart';
 import 'package:flutter/material.dart';
 
 class GradientContainer extends StatelessWidget {
-  const GradientContainer({super.key});
+  GradientContainer(this.startAlignment, this.endAlignment, {super.key});
+  Alignment startAlignment;
+  Alignment endAlignment;
 
   @override
   Widget build(BuildContext context) {
@@ -13,8 +15,8 @@ class GradientContainer extends StatelessWidget {
             Color.fromARGB(255, 26, 2, 80),
             const Color.fromARGB(255, 9, 1, 24),
           ],
-          begin: Alignment.topLeft,
-          end: Alignment.bottomRight,
+          begin: startAlignment,
+          end: endAlignment,
           ),
       ),
       child: Centered("Peepee Man")
