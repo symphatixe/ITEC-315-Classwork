@@ -1,4 +1,5 @@
 import 'package:first_app/centered.dart';
+import 'package:first_app/dice_roller.dart';
 import 'package:flutter/material.dart';
 
 class GradientContainer extends StatelessWidget {
@@ -17,9 +18,11 @@ class GradientContainer extends StatelessWidget {
           ],
           begin: startAlignment,
           end: endAlignment,
-          ),
+        ),
       ),
-      child: Centered("Peepee Man")
+      child: Center(
+        child: DiceRoller()
+      ),
     );
   }
 }
