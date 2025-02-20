@@ -1,0 +1,6 @@
+[submodule "Classwork/Project1"]
+	path = Classwork/Project1
+	url = https://github.com/symphatixe/first_app
+[submodule "Classwork/Project2"]
+	path = Classwork/Project2
+	url = https://github.com/symphatixe/first_app
