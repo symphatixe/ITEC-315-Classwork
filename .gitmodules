@@ -4,3 +4,6 @@
 [submodule "Project2"]
 	path = Project2
 	url = https://github.com/symphatixe/quiz_app
+[submodule "Project3"]
+	path = Project3
+	url = https://github.com/symphatixe/finance_app.git
